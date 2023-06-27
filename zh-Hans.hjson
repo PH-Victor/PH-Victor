@@ -1,0 +1,385 @@
+Mods: {
+	BtO: {
+		NPCs: {
+			RatKing.DisplayName: 鼠王
+
+			Dande: {
+				DisplayName: 悠闲的蒲公英
+
+				TownNPCMood: {
+					// Content: 我很满足。
+					// NoHome: 我讨厌没有家。
+					// FarFromHome: 我离家太远了。
+					// LoveSpace: 我非常喜欢有这么大的空间。
+					// DislikeCrowded: 我不喜欢这么拥挤。
+					// HateCrowded: 我讨厌这么拥挤。
+					// LoveBiome: 我非常喜欢{BiomeName}。
+					// LikeNPC_Princess: I like {NPCName}.
+					// Princess_LovesNPC: I like {NPCName}.
+				}
+			}
+
+			Danduke.DisplayName: 蒲草公爵
+			LoseRatKing.DisplayName: 鼠王
+		}
+
+		Items: {
+			DirtyCrown: {
+				DisplayName: 肮脏王冠
+				Tooltip:
+					'''
+					周期性地产生灰尘护盾保护你，灰尘护盾在抵挡一次伤害后消失
+					护盾存在时提供大量防御，护盾消失后此效果快速衰减
+					'''
+			}
+
+			WindGrass: {
+				DisplayName: 随风草
+				Tooltip: 免疫摔落伤害并基于风速提供移动速度
+			}
+
+			DandukeMask: {
+				DisplayName: 蒲草公爵面具
+				// Tooltip: ""
+			}
+
+			RatKingMask: {
+				DisplayName: 鼠王面具
+				// Tooltip: ""
+			}
+
+			ChaosKey: {
+				DisplayName: 混沌之匙
+				Tooltip: 召唤一只老鼠跟着你
+			}
+
+			ClearMirror: {
+				DisplayName: 清心镜
+				Tooltip: 清除你的天赋和负载
+			}
+
+			DandukeBossBag: {
+				DisplayName: 宝藏袋（蒲草公爵）
+				Tooltip: 右键点击可打开
+			}
+
+			DandukeMusicBox: {
+				DisplayName: 八音盒（蒲草公爵）
+				// Tooltip: ""
+			}
+
+			DandukeRelic: {
+				DisplayName: 蒲草公爵圣物
+				// Tooltip: ""
+			}
+
+			DandukeTrophy: {
+				DisplayName: 蒲草公爵纪念章
+				// Tooltip: ""
+			}
+
+			EightTrigramsMirror: {
+				DisplayName: 八卦镜
+				Tooltip:
+					'''
+					增加负载以使用天赋
+					"两仪生四象，四象生八卦"
+					'''
+			}
+
+			RatKingBossBag: {
+				DisplayName: 宝藏袋（鼠王）
+				Tooltip: 右键点击可打开
+			}
+
+			RatKingMusicBox: {
+				DisplayName: 八音盒（鼠王）
+				// Tooltip: ""
+			}
+
+			RatKingRelic: {
+				DisplayName: 鼠王圣物
+				// Tooltip: ""
+			}
+
+			RatKingStatue: {
+				DisplayName: 鼠王雕像
+				// Tooltip: ""
+			}
+
+			RatKingTrophy: {
+				DisplayName: 鼠王纪念章
+				// Tooltip: ""
+			}
+
+			UnangryDandelion: {
+				DisplayName: 不愤怒的蒲公英
+				Tooltip:
+					'''
+					召唤一团飞絮跟着你
+					"当心被风吹走！"
+					'''
+			}
+
+			BombStaff: {
+				DisplayName: 炸弹法杖
+				Tooltip:
+					'''
+					放置炸弹
+					注意：爆炸不分敌我！
+					'''
+			}
+
+			DesertDandelion: {
+				DisplayName: 沙漠之英
+				Tooltip: 将子弹转化为爆炸飞絮
+			}
+
+			EmeraldSlate: {
+				DisplayName: 翡翠石板
+				Tooltip:
+					'''
+					召唤一块琉璃璧
+					站在琉璃璧内获得保护
+					琉璃璧存在8秒或抵挡一次伤害后破碎
+					召唤琉璃璧有8秒的冷却时间
+					'''
+			}
+
+			HalleluTornado: {
+				DisplayName: 哈利路大旋风
+				Tooltip: '''"哇嗷！"'''
+			}
+
+			Mac10: {
+				DisplayName: 吹风机
+				Tooltip: '''"就是个盒子"'''
+			}
+
+			NazrinPendulum: {
+				DisplayName: 高感度纳兹琳灵摆
+				Tooltip:
+					'''
+					5点召唤标记伤害
+					你的召唤物将集中攻击敌人
+					使你能找到附近的宝藏
+					'''
+			}
+
+			PortableCannon: {
+				DisplayName: 轻型榴弹炮
+				Tooltip: 将种子转化为榴弹
+			}
+
+			RatDrill: {
+				DisplayName: 鼠洞钻头
+				Tooltip: 能够开采狱石
+			}
+
+			RatInterphone: {
+				DisplayName: 对讲机
+				Tooltip: 召唤舒克为你而战
+			}
+
+			Ratooth: {
+				DisplayName: 鼠齿
+				Tooltip:
+					'''
+					击中目标后短暂复制对方的防御（不超过自身防御的2倍）
+					"听说老鼠吃下谁的指甲就能变成谁"
+					'''
+			}
+
+			RatWheel: {
+				DisplayName: 老鼠车轮
+				// Tooltip: ""
+			}
+
+			SheathSword: {
+				DisplayName: 鞘中古剑
+				Tooltip:
+					'''
+					右键格挡
+					"你无法从鞘中拔出剑，只能连同鞘一起用了"
+					'''
+			}
+
+			Wabbajack: {
+				DisplayName: 瓦巴杰克
+				Tooltip:
+					'''
+					造成随机效果
+					有几率把目标变成甜卷
+					"瓦巴杰克？瓦巴杰克！瓦巴杰克瓦巴杰克瓦巴杰克..."
+					'''
+			}
+
+			WindSong: {
+				DisplayName: 风吟
+				Tooltip: 有几率额外发射两支细箭
+			}
+
+			SnakeBow: {
+				DisplayName: 蛇弓
+				// Tooltip: ""
+			}
+
+			DeepBlue: {
+				DisplayName: 幽兰
+				Tooltip: 一次射出三支箭
+			}
+
+			RedLotus: {
+				DisplayName: 红莲
+				Tooltip: 射出狱炎箭和燎原野火
+			}
+
+			ObsidianHive: {
+				DisplayName: 黑曜石蜂巢
+				Tooltip: 发射黑曜石的蜜蜂
+			}
+
+			MountainBreaker: {
+				DisplayName: 崩山鞭
+				Tooltip:
+					'''
+					3点召唤标记伤害
+					你的召唤物将集中攻击敌人
+					'''
+			}
+
+			Gurthang: {
+				DisplayName: 破碎的古尔桑
+				Tooltip:
+					'''
+					5点召唤标记伤害
+					你的召唤物将集中攻击敌人
+					'''
+			}
+
+			Stream: {
+				DisplayName: 激流
+				Tooltip:
+					'''
+					8点召唤标记伤害
+					你的召唤物将集中攻击敌人
+					降低你的目标10%攻击
+					'''
+			}
+
+			BarlogWhip: {
+				DisplayName: 炎魔之鞭
+				Tooltip:
+					'''
+					5点召唤标记伤害
+					你的召唤物将集中攻击敌人
+					点燃你的敌人
+					'''
+			}
+
+			TortoiseCannon: {
+				DisplayName: 陆龟加农
+				// Tooltip: ""
+			}
+		}
+
+		Buffs: {
+			AshShieldBuff: {
+				DisplayName: 灰尘护盾
+				Description: 尘埃护体
+			}
+
+			BaelzBuff: {
+				DisplayName: 贝尔丝
+				Description: 贝尔丝跟着你
+			}
+
+			FlyDandelionBuff: {
+				DisplayName: 飞絮
+				Description: 飞絮跟着你
+			}
+
+			MagicBurn: {
+				DisplayName: 魔法灼烧
+				Description: 持续烧伤
+			}
+
+			NazrinPendulumDebuff: {
+				DisplayName: 灵摆
+				Description: 受到额外召唤物伤害
+			}
+
+			ShookBuff: {
+				DisplayName: 舒克
+				Description: 舒克将为你而战
+			}
+
+			MountainBreakerDebuff: {
+				DisplayName: 破坏
+				Description: 受到额外召唤物伤害
+			}
+
+			StreamDebuff: {
+				DisplayName: 激流
+				Description: 受到额外召唤物伤害并降低10%攻击
+			}
+		}
+
+		Projectiles: {
+			AshShield.DisplayName: 灰尘护盾
+			BombStaffProj.DisplayName: 炸弹
+			Boom.DisplayName: 爆炸
+			Boom_.DisplayName: 爆炸
+			BoomDandelion.DisplayName: 爆炸飞絮
+			BoomX.DisplayName: 爆炸
+			BoomY.DisplayName: 爆炸
+			Dandelion.DisplayName: 飞絮
+			DandelionBullet.DisplayName: 蒲公英弹
+			DangerousDandelion.DisplayName: 危险飞絮
+			Donut.DisplayName: 甜卷
+			EmeraldWallSharp.DisplayName: 琉璃碎片
+			Fireinthehole.DisplayName: 破片手雷
+			Flashbang.DisplayName: 闪光弹
+			FlashbangLight.DisplayName: 闪光
+			Mac10Bullet.DisplayName: 风弹
+			ManaBomb.DisplayName: 能量炸弹
+			ManaBoom.DisplayName: 能量爆炸
+			ManaShield.DisplayName: 奥法屏障
+			Baelz.DisplayName: 贝尔丝
+			EmeraldWall.DisplayName: 琉璃璧
+			FlyDandelion.DisplayName: 飞絮
+			Shook.DisplayName: 舒克
+			NazrinPendulumProj.DisplayName: 灵摆
+			RatDrillProj.DisplayName: 鼠洞钻头
+			RatKingSlash1.DisplayName: 斩切
+			RatKingSlash2.DisplayName: 斩切
+			RatKingSlash3.DisplayName: 斩切
+			RatoothProj.DisplayName: 鼠齿
+			RatWheelProj.DisplayName: 老鼠车轮
+			Rock.DisplayName: 巨石
+			SeedBomb.DisplayName: 种子炸弹
+			SeedCannonball.DisplayName: 榴弹
+			SheathSwordBlocking.DisplayName: 鞘中古剑
+			SheathSwordProj.DisplayName: 鞘中古剑
+			ShookBullet.DisplayName: 直升机子弹
+			Stone.DisplayName: 碎石
+			SuperSeedBomb.DisplayName: 超级种子炸弹
+			Tornado.DisplayName: 气旋
+			WabbajackProj.DisplayName: 瓦巴杰克魔光
+			WabbajackStaff.DisplayName: 瓦巴杰克
+			WindArrow.DisplayName: 风矢
+			ObsidianBee.DisplayName: 黑曜石蜜蜂
+			MountainBreakerProj.DisplayName: 崩山鞭
+			GurthangProj.DisplayName: 古尔桑
+			StreamProj.DisplayName: 激流
+			// BarlogWhipProj.DisplayName: Barlog Whip Proj
+			// TortoiseCannonProj.DisplayName: Tortoise Cannon Proj
+			// TortoiseCannonHold.DisplayName: Tortoise Cannon Hold
+		}
+
+		Tiles: {
+			DandukeMusicBoxTile.MapEntry: 八音盒
+			RatKingMusicBoxTile.MapEntry: 八音盒
+		}
+	}
+}
